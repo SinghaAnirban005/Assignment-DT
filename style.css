@@ -1,0 +1,29 @@
+.main {
+  
+    width: 1440px;
+    height: 1805px;
+}
+
+.head{
+    
+    height: 90px;
+    width: 1440px;
+    display: flex;
+    background-color: #F0F0F0;
+}
+
+.head-container{
+    background-color: blue;
+    width: 1440px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 83px;
+    padding-right: 83px;
+}
+
+.logo{
+    height: 49px;
+    width: 311px;
+}   
