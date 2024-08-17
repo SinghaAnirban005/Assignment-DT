@@ -7,7 +7,10 @@ const video_dash = document.querySelector('.card1-video');
 const card2_img = document.querySelector('.card2-img')
 const card2_header = document.querySelector(".card2-header")
 const card2_span = document.querySelector(".card2-span")
-
+const card3_header = document.querySelector(".card3-header")
+const card3_span = document.querySelector(".card3-span")
+const card4_header = document.querySelector(".card4-header")
+const card4_span = document.querySelector(".card4-span")
 
 const info = fetch('data.json')
 .then((data) => {
@@ -23,9 +26,15 @@ card1_span.textContent = data.tasks[0].assets[0].asset_description
 
 card2_header.textContent = data.tasks[0].assets[1].asset_title
 card2_span.textContent = data.tasks[0].assets[1].asset_description
+card3_header.textContent = data.tasks[0].assets[2].asset_title
 // video.src = data.tasks[0].assets[0].asset_content
-// video_dash.load();
- 
+// video_dash.load();tex
+card3_span.textContent = data.tasks[0].assets[2].asset_description
+card4_header.textContent = data.tasks[0].assets[3].asset_title
+// video.src = data.tasks[0].assets[0].asset_content
+// video_dash.load();tex
+card4_span.textContent = data.tasks[0].assets[3].asset_description
+
 })
 .catch((error) => {
     console.log(error)
