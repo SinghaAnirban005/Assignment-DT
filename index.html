@@ -68,11 +68,16 @@
                   </span>
               </p>
 
-              <video controls class="card1-video">
-                <source src="https://www.youtube.com/embed/TiMRwri1xJ8" type="video/mp4" id="video">
-                <source src="https://www.youtube.com/embed/TiMRwri1xJ8" type="video/webm">
-              Your browser does not support the video tag.
-              </video>
+              <iframe
+                class="card1-video"
+                width="560" 
+                height="315" 
+                src="" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>>
+              </iframe>
             </div>
 
             <div class="card2">
@@ -138,7 +143,28 @@
                 <p class="card3-subcontent">
                   Content
                 </p>
-                <img src="/public/Rectangle 2320.png" alt="card3-img" class="card3-img" />
+                <!-- img src="/public/Rectangle 2320.png" alt="card3-img" class="card3-img" /> -->
+                <div class="card3-img">
+                    <div class="edit-tab">
+                      <p class="p1">File</p>
+                      <p class="p2">Edit</p>
+                      <p class="p3">View</p>
+                      <p class="p4">Insert</p>
+                      <p class="p5">Format</p>
+                      <p class="p6">Tools</p>
+                      <p class="p7">Table</p>
+                      <p class="p8">Help</p>
+                    </div>
+                    <div class="modify-tab">
+                      <img src="/public/arrow-curve-left-right.png" alt="" class="left-img" />
+                      <img src="/public/arrow-curve-left-down.png" alt="" class="right-img" />
+                      <img src="/public/arrow-expand-02.png" alt="" class="expand-img" />
+                      <p class="para">Paragraph</p>
+                      <img src="/public/Ellipse 197.png" alt="" class="dot1-img" />
+                      <img src="/public/Ellipse 197.png" alt="" class="dot2-img" />
+                      <img src="/public/Ellipse 197.png" alt="" class="dot3-img" />
+                    </div>
+                </div>    
                 <img src="/public/Rectangle 1882.png" alt="card3-img2" class="card3-img2" />
               </div>
             </div>
@@ -206,18 +232,22 @@
           <div class="right-left">
             <img src="/public/Icon.png" alt="cross" class="cross" />
             <div class="notice">
+            <div>
             <p>N</p> 
             <p>o</p> 
             <p>t</p> 
             <p>i</p>
             <p>c</p>
             <p>e</p>
+            </div>
 
-            <p>B</p>
-            <p>o</p>
-            <p>a</p>
-            <p>r</p>
-            <p>d</p>
+            <div>
+              <p>B</p>
+              <p>o</p>
+              <p>a</p>
+              <p>r</p>
+              <p>d</p>
+            </div>
             </div>
           </div>
 
